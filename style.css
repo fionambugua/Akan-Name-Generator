@@ -26,3 +26,13 @@ nav a:active {
   color: brown;
   text-decoration: underline;
 }
+body{
+    background-color: orange;
+}
+section {
+  max-width: 1000px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+}

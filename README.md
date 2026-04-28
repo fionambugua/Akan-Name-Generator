@@ -14,7 +14,9 @@ Fiona Njeri Mbugua
 4. Click submit to see your Akan name and day of birth
 
 ##BDD(Behavior-Driven Development)
-
+1. Input birth date and gender
+2. Input: Invalid date (day ≤ 0 or day > 31)
+3. Input: Invalid month (month ≤ 0 or month > 12)
 
 ##TECHNOLOGIES USED
 1. HTML
@@ -25,3 +27,5 @@ Fiona Njeri Mbugua
 Email - fionambuguanjeri@gmail.com
 
 ##LICENSE AND COPYRIGHT INFORMATION
+Copyright (c) 2026 Fiona Mbugua. Distributed under the MIT License. See [License](LICENSE)
+ for more information.

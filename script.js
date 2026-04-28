@@ -27,6 +27,13 @@ let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+let CC = Math.floor(year / 100);
+let YY = year % 100;
+let DD = day;
+let MM = month;
 
+let dayofWeek = Math.floor(
+    (((CC / 4) - (2 * CC) - 1) + ((5 * YY) / 4) + ((26 * (MM + 1)) / 10) + DD) % 7 
+);
 
 });

@@ -9,6 +9,19 @@ let gender = parseInt(document.getElementById("#gender").value);
 
 let result = document.getElementById("#result");
 
+if (day < 1 || day > 31 ) {
+    alert("Invalid day");
+    return;
+}
+if (month < 1 || month >12 ) {
+    alert("Invalid month");
+    return;
+}
+
+if (!gender) {
+    alert("Please select gender");
+    return;
+}
 
 
 });

@@ -17,5 +17,8 @@ nav a{
     line-height: 2;
 }
 nav a:hover{
-    
+    text-decoration: underline;
+    color: purple;
+    font-size: 18px;
+    cursor: pointer;
 }

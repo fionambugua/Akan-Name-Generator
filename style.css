@@ -3,9 +3,12 @@ header{
 }
 h1{
     text-align: center;
+    font-weight: 600;
+    fo
 }
 header p{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
     text-align: center;
@@ -43,11 +46,11 @@ h3{
     border: 1px solid black;
 }
 form {
-    width: 300px;          /* or 50%, your choice */
+    width: 800px;          /* or 50%, your choice */
     margin: 0 auto;        /* centers horizontally */
     text-align: left;      /* keeps labels aligned nicely */
 }
-form input, button{
+form input, button, .result{
         width: 100%;
         padding: 14px;
         margin-bottom: 18px;
@@ -55,7 +58,23 @@ form input, button{
         border: 1px solid #ddd;
         border-radius: 8px;
 
-    }
+}
+button{
+    border: none;
+    padding: 12px 25px;
+    font-size: 200;
+    font-weight: bold;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+form button:hover{
+        background-color: rgb(241, 145, 217);
+}
+form button:active{
+        background-color: pink;
+}    
 label{
     font-weight: 600;
     font-size: larger;
@@ -67,7 +86,6 @@ label{
     font-weight: bold;
     color: #2c3e50;
     background: #f1f8ff;
-    border-left: 5px solid #3498db;
     border-radius: 8px;
     width: fit-content;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

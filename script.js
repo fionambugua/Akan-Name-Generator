@@ -60,4 +60,10 @@ let dayName = days[dayofWeek];
 
 result.textContent = "You were born on " + dayName + "- Your Akan Name is " + akanName;
 
+const form = document.getElementById("form");
+
+result.textContent = `You were born on ${dayName}. Your Akan name is ${akanName}`;
+
+// clear form
+form.reset();
 });

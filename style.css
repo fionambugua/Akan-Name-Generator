@@ -39,3 +39,6 @@ section {
 h2{
     text-align: center;
 }
+h3{
+    border: 1px solid black;
+}

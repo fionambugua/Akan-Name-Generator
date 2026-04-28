@@ -2,12 +2,12 @@ const button = document.querySelector(#button);
 button.addEventListener("click", (event) => {
     event.preventDefault();
 
-let day = parseInt(document.getElementById("#day").value);
-let month = parseInt(document.getElementById("#month").value);
-let year = parseInt(document.getElementById("#year").value);
-let gender = parseInt(document.getElementById("#gender").value);
+let day = parseInt(document.getElementById("day").value);
+let month = parseInt(document.getElementById("month").value);
+let year = parseInt(document.getElementById("year").value);
+let gender = parseInt(document.getElementById("gender").value);
 
-let result = document.getElementById("#result");
+let result = document.getElementById("result");
 
 if (day < 1 || day > 31 ) {
     alert("Invalid day");
@@ -35,5 +35,21 @@ let MM = month;
 let dayofWeek = Math.floor(
     (((CC / 4) - (2 * CC) - 1) + ((5 * YY) / 4) + ((26 * (MM + 1)) / 10) + DD) % 7 
 );
+
+if (dayofWeek < 0) {
+    dayofWeek = (dayofWeek + 7) % 7;
+}
+
+let akanName = (gender === "male")? maleNames[dayofWeek]: femaleNames[dayofWeek];
+
+let dayName = days[dayofWeek];
+
+// if (gender === "male") {
+//     akanName = maleNames[dayofWeek];
+// } else {
+//     akanName = femaleNames[dayofWeek];
+// }
+
+result.textContent = `You were born on` + dayName + `- Your Akan Name is` +akanName;
 
 });

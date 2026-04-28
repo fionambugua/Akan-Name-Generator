@@ -10,3 +10,12 @@ header p{
 nav{
     text-align: center;
 }
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 600;
+    line-height: 2;
+}
+nav a:hover{
+    
+}

@@ -15,8 +15,11 @@ Fiona Njeri Mbugua
 
 ##BDD(Behavior-Driven Development)
 1. Input birth date and gender
+   Output: Akan name based on day of birth and gender
 2. Input: Invalid date (day ≤ 0 or day > 31)
+   Output: Error message requesting valid date
 3. Input: Invalid month (month ≤ 0 or month > 12)
+   Output: Error message requesting valid month
 
 ##TECHNOLOGIES USED
 1. HTML

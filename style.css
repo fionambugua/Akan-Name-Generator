@@ -1,10 +1,16 @@
 header{
     background-color: pink;
     margin:auto;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+    text-align: center;
 }
 h1{
     text-align: center;
     font-weight: 600;
+    font-size: 40px;
+    margin: 0;
 
 }
 header p{
@@ -13,6 +19,7 @@ header p{
 }
 nav{
     text-align: center;
+    padding: 12px 0;
 }
 nav a{
     text-decoration: none;

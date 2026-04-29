@@ -47,9 +47,9 @@ h3{
     border: 1px solid black;
 }
 form {
-    width: 800px;          /* or 50%, your choice */
-    margin: 0 auto;        /* centers horizontally */
-    text-align: left;      /* keeps labels aligned nicely */
+    width: 800px;          
+    margin: 0 auto;        
+    text-align: left;      
 }
 form input, button, .result{
         width: 100%;

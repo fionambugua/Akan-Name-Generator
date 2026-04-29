@@ -90,10 +90,10 @@ label{
 #result {
     margin:0;
     padding: 15px 20px;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: bold;
-    color: #2c3e50;
-    background: #f1f8ff;
+    color: rgb(85, 85, 114);
+    background: rgb(224, 225, 236);
     border-radius: 8px;
     width: fit-content;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
